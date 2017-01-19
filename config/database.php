@@ -54,11 +54,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('fotoin', 'forge'),
-            'username' => env('root', 'forge'),
-            'password' => env('', ''),
+            'host' => '127.0.0.1',
+            'port' => '3306',
+            'database' => 'fotoin',
+            'username' => 'root',
+            'password' => '',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
