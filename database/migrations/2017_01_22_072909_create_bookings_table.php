@@ -17,11 +17,8 @@ class CreateBookingsTable extends Migration
             $table->increments('id');
             $table->integer('users_id')->unsigned();//costumer id
             $table->integer('package_id')->unsigned();
-            $table->string('bank_account_number');
-            $table->string('bank_account_name');
-            $table->string('bank');
-            $table->string('status_payment')->nullable();
-            $table->date('date');
+            $table->integer('price');
+            $table->string('status_payment');
             $table->timestamps();
         });
     }
