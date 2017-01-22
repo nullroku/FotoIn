@@ -17,7 +17,8 @@ class CreateBookingsTable extends Migration
             $table->increments('id');
             $table->integer('users_id')->unsigned();//costumer id
             $table->integer('package_id')->unsigned();
-            $table->integer('price');
+            $table->integer('30percent_price');
+            $table->integer('full_price');
             $table->string('status_payment');
             $table->timestamps();
         });
