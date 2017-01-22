@@ -17,6 +17,7 @@ class CreatePackagesTable extends Migration
             $table->increments('id');
             $table->integer('pckg_categories_id')->unsigned();
             $table->integer('users_id')->unsigned();//photographer id
+            $table->integer('price');
             $table->string('duration');
             $table->string('duration_unit');
             $table->string('description');
