@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class pckg_category extends Model
+class Pckg_category extends Model
 {
     //
 }

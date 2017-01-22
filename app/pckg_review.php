@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class pckg_review extends Model
+class Pckg_review extends Model
 {
     //
 }
